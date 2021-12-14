@@ -1,0 +1,252 @@
+.section1{
+    position:absolute;
+    top:19px;
+    left:150px;
+}
+.section2{
+    position:absolute;
+    top:32px;
+    left:450px;
+    font-family: 'Mulish', sans-serif;
+    display:inline;
+
+}
+.section2 input{
+
+  font-size: 12px;
+  background-color: #CAEFF7;
+  border:none;
+  padding:2.5px;
+  width: 250px;
+  margin-bottom:80px;
+}
+.imge{
+    position: relative;
+    top: 6px;
+    left:7px;
+}
+.imge2{
+    position: relative;
+    top: 6.75px;
+    left:-3px;
+}
+.imge3{
+    position: relative;
+    top: 6.75px;
+    left:5px;
+}
+.imge4{
+    position: relative;
+    top: 6.75px;
+    left:-4px;
+}
+
+.section2 button{
+    font-size: 12px;
+    background-color: #274f56;
+    border:none;
+    padding:3px;
+}
+.section3{
+    position:absolute;
+    left:1031px;
+    top:28px;
+    text-align:right;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+.section3 a {
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+    position:relative;
+}
+.nav-section1{
+    position:relative;
+    top:15px;
+    left:135px;
+    font-family: 'Mulish', sans-serif;
+    display:inline-block;
+}
+.nav-section1 a{
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+    padding-left:25px;
+}
+.nav-section2{
+    position:absolute;
+    top: 100px;
+    left: 900px;
+}
+.nav-section2 a{
+    text-decoration: none;
+    font-size: 12px;
+    color:black; 
+    font-family: 'Mulish', sans-serif;
+    position:relative;
+}
+.nav-section3{
+    position:absolute;
+    top: 100px;
+    left: 1063px;
+}
+.nav-section3 a{
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+    font-family: 'Mulish', sans-serif;
+    position:relative;
+}
+.heading{
+    font-family: 'Mulish', sans-serif;
+    font-size: 26px;
+    padding-left:380px;
+    padding-top:80px;
+    color:#373737;
+}
+.title{
+    width:180px;
+    padding:10px;
+    border: 1px solid #7DD9E8;
+    background:#7DD9E8;
+    color:white;
+    font-size: 18px;
+    text-align:center;
+}
+
+.content-sidebar{
+    width:160px;
+    padding:20px;
+    color:black;
+    font-size:12px;
+    border: 1px solid #F5F5F5;
+    background:#F5F5F5;
+}
+.active{
+    background:white;
+    width:100%;
+    padding:2px;
+}
+
+.icon1{
+    margin-left:90px;
+}
+.icon2{
+    margin-left:65px;
+}
+.icon3{
+    margin-left:38px;
+}
+
+.icon4{
+    margin-left:100px;
+}
+.icon5{
+    margin-left:100px;
+}
+.icon6{
+    margin-left:75px;
+}
+.icon7{
+    margin-left:60px;
+}
+.icon8{
+    margin-left:48px;
+}
+.blue{
+    color:#30C0DA;
+}
+.red{
+    color: #D4401C;
+}
+.green{
+    color:#6E9520;
+}
+.type1txt{
+    font-size:26;
+    font-weight: bold;
+}
+.type2txt{
+    font-size:16;
+    font-weight: normal;
+}
+.type3txt{
+    font-size:16;
+    font-weight: normal;
+}
+.content-sidebarR{
+    width:160px;
+    padding:20px;
+    border: 1px solid #F5F5F5;
+    background:#F5F5F5;
+}
+.content-sidebarR a{
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Mulish', sans-serif;
+    color:black;
+}
+.profileimages{
+    float:left;
+    margin-right: 20px;
+    padding-top:3px;
+}
+.content li{
+    border-bottom: 1px solid #D8D8D8;
+}
+.header2section1 a{
+    display: inline;
+    text-decoration: none;
+    text-align:justify;
+    font-size: 18px;
+    font-family: 'Mulish', sans-serif;
+    color:black;
+    margin-top:20px;
+}
+
+.h2images{
+    margin-left:-2px;
+    margin-top:-28px;
+    padding:18px;
+    
+}
+.imgh27{
+        position: relative;
+        top: -22px;
+        left:-13px;
+}
+.imgh28{
+    position: relative;
+    top: -22px;
+    left:467px;
+
+}
+
+.footer-section1{
+    position:relative;
+    top:15px;
+    left:160px;
+    font-family: 'Mulish', sans-serif;
+    display:inline-block;
+}
+.footer-section1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color:white; 
+    font-family: 'Mulish', sans-serif;
+    position:relative;
+}
+.footer-section2{
+    position: relative;
+    top:-3px;
+    left:1100px;
+}
+a:hover{
+    background: #7DD9E8;
+    text-decoration: underline;
+}
+
+
+
+
