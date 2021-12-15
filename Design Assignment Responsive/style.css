@@ -1,0 +1,543 @@
+#wrapper{
+    margin-left:auto;
+    margin-right:auto;
+    width:960px;
+}
+.section1{
+    position:absolute;
+    top:1rem;
+    left:10rem;
+}
+.section2{
+    position:absolute;
+    top:1.5rem;
+    left:25rem;
+    font-family: 'Mulish', sans-serif;
+    display:inline;
+
+}
+.section2 input{
+  font-size: 12px;
+  background-color: #CAEFF7;
+  border:none;
+  padding:2.5px;
+  width: 250px;
+  margin-bottom:80px;
+}
+.imge{
+    position: relative;
+    top: 6px;
+    left:7px;
+}
+.imge2{
+    position: relative;
+    top: 6.75px;
+    left:-3px;
+}
+.imge3{
+    position: relative;
+    top: 6.75px;
+    left:5px;
+}
+.imge4{
+    position: relative;
+    top: 6.75px;
+    left:-4px;
+}
+.section2 button{
+    font-size: 12px;
+    background-color: #274f56;
+    border:none;
+    padding:3px;
+}
+.section3{
+    position:absolute;
+    left:54rem;
+    top:28px;
+    text-align:right;
+    font-family: 'Mulish', sans-serif;
+    font-size: 18px;
+}
+.section3 a {
+    text-decoration: none;
+    font-size: 14px;
+    color:#292929;;
+    position:relative;
+}
+.nav-section1{
+    position:relative;
+    top:0.8rem;
+    left:1.5rem;
+    font-family: 'Mulish', sans-serif;
+    display:inline-block;
+}
+.nav-section1 a{
+    text-decoration: none;
+    font-size: 14px;
+    color:#292929;;
+    padding-left:25px;
+}
+.nav-section2{
+    position:relative;
+    top: -0.2rem;
+    left: 40rem;
+}
+.nav-section2 a{
+    text-decoration: none;
+    font-size: 12px;
+    color:#292929;; 
+    font-family: 'Mulish', sans-serif;
+    position:relative;
+}
+.nav-section3{
+    position:relative;
+    top: -1.3rem;
+    left: 51rem;
+}
+.nav-section3 a{
+    text-decoration: none;
+    font-size: 12px;
+    color:#292929;;
+    font-family: 'Mulish', sans-serif;
+    position:relative;
+}
+.heading{
+    font-family: 'Mulish', sans-serif;
+    font-size: 26px;
+    padding-left:15rem;
+    padding-top:2.4rem;
+    color:#373737;
+}
+
+.title{
+    width:180px;
+    padding:10px;
+    border: 1px solid #7DD9E8;
+    background:#7DD9E8;
+    color:white;
+    font-size: 18px;
+    text-align:center;
+}
+.content-sidebar ul{
+    padding:2rem,
+} 
+.content-sidebar li {
+    background: url("Images/download.png") no-repeat;
+    background-position: right center;
+    padding:0.3rem;
+    margin:0.4rem;
+    list-style:none; 
+    text-justify: inter-word;
+    vertical-align:middle;  
+}
+.content-sidebar1 li {
+    background: url("Images/threebar.png") no-repeat;
+    background-position: right center;
+    padding:0.3rem;
+    margin:0.4rem;
+    list-style:none; 
+    vertical-align:middle;   
+}
+.content-sidebarR a{
+    text-decoration: none;
+    font-size: 14px;
+    display: block;
+    block-size:2rem;
+    text-align:left; 
+    font-family: 'Mulish', sans-serif;
+    color:#292929;
+}
+.content-sidebarR a:hover{
+    text-decoration: underline;
+    padding-top:0.5rem;
+    width:45rem;
+    background-color:#ffffff;
+    transition: .5s;
+}
+.blue{
+    color:#30C0DA;
+}
+.red{
+    color: #D4401C;
+}
+.green{
+    color:#6E9520;
+}
+.type1txt{
+    font-size:26;
+    font-weight: bold;
+}
+.type2txt{
+    font-size:16;
+    font-weight: normal;
+}
+.type3txt{
+    font-size:16;
+    font-weight: normal;
+}
+
+.profileimages{
+    float: left;
+    margin-right: 1rem;
+    } 
+.content ul li{
+    border-bottom: 1px solid #D8D8D8;
+}
+.header2section1{
+    position:absolute;
+    background-color: #F5F5F5;
+    height: 4.5rem;
+    width: 19%;
+    left:-15.5rem;
+    top:-8.2rem;
+    bottom:0;
+    right:0;
+    margin:auto;
+    text-align: center;
+}
+.header2section2{
+    position:absolute;
+    background-color: #F5F5F5;
+    height: 4.5rem;
+    width: 19%;
+    left:15rem;
+    top:-8.2rem;
+    bottom:0;
+    right:0;
+    margin:auto;
+    text-align: center;
+}
+.header2section1 a{
+    display: inline;
+    text-decoration: none;
+    text-align:justify;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    color:#292929;;
+    margin-top:20px;
+}
+.header2section2 a{
+    display: inline;
+    text-decoration: none;
+    text-align:justify;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    color:#292929;
+    margin-top:20px;
+}
+.imgh27{
+        position: relative;
+        top:-1.2rem;
+        left:-7.5rem;
+}
+.imgh28{
+    position:relative;
+    top:-1.4rem;
+    left: 37rem;
+}
+.icona{
+    position:absolute;
+    top:15.25rem;
+    left:24.5rem;
+    background:none;
+}
+.icona:hover{
+     background:#F5F5F5;
+}
+.iconb{
+    position:absolute;
+    top:15.25rem;
+    left:31.9rem;
+    background:none;
+}
+.iconb:hover{
+     background:#F5F5F5;
+}
+.iconc{
+    position:absolute;
+    top:15.25rem;
+    left:39.9rem;
+    background:none;
+}
+.iconc:hover{
+    background:#F5F5F5;;
+}
+.icond{
+    position:absolute;
+    top:15.25rem;
+    left:47.5rem;
+    background:none;
+}
+.icond:hover{
+    background:#F5F5F5;
+}
+.footer-section1{
+    position:relative;
+    top:0.9rem;
+    left:12rem;
+    font-family: 'Mulish', sans-serif;
+    display:inline-block;
+}
+.footer-section1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color:white; 
+    font-family: 'Mulish', sans-serif;
+    position:relative;
+}
+.footer-section2{
+    position: relative;
+    top:0.1rem;
+    left:50rem;
+}
+a:hover{
+    text-decoration: underline;
+    }
+@media only screen and (max-width:570px){
+    .header-container{
+      width:100%; 
+      background:#7DD9E8;
+   }
+    .section1{
+        position:absolute;
+        left:7rem;
+    }
+    .section2{
+        display:none;
+    }
+    .section3{
+        display:none;
+    }
+    .nav-container{
+        height: 65px;
+        width:100%;
+        background:#F5F5F5;
+    }    
+    .nav-section1{
+        position:relative;
+        top:0.7rem;
+        left:-1rem;
+    }
+    .nav-section2{
+        position:absolute;
+        top: 7.5rem;
+        left: 5rem;
+        }
+    .nav-section3{
+        position:absolute;
+        top: 7.5rem;
+        left: 20rem;
+    }
+    .header2section1{
+        position:absolute;
+        background-color: #F5F5F5;
+        height: 4rem;
+        width: 48%;
+        left:-15.5rem;
+        top:-7rem;
+        bottom:0;
+        right:0;
+        margin:auto;
+        text-align: center;
+    }
+    .imgh27{
+        position: relative;
+        top:-1.1rem;
+        left:-7rem;
+    }
+    .header2section2{
+        position:absolute;
+        background-color: #F5F5F5;
+        height: 4rem;
+        width: 48%;
+        left:14rem;
+        top:-7rem;
+        bottom:0;
+        right:0;
+        margin:auto;
+        text-align: center;
+    }
+    .imgh28{
+        position:relative;
+        top:-1.7rem;
+        left:34rem;
+    } 
+    
+    .icona{
+        position:absolute;
+        top:14.6rem;
+        left:0.5rem;
+        background:none;
+    
+    }
+    .iconb{
+        position:absolute;
+        top:14.6rem;
+        left:7.8rem;
+        background:none;
+    }
+    .iconc{
+        position:absolute;
+        top:14.6rem;
+        left:15.2rem;
+        background:none;
+    }
+    .icond{
+        position:absolute;
+        top:14.6rem;
+        left:22.5rem;
+        background:none;
+    }
+    .content ul li{
+        border-bottom: 1px solid #D8D8D8;
+    }
+    .content{
+        background:white;
+        border-top: 3px solid #7DD9E8;
+        margin-left:2.1rem;
+        width:45%;
+        float:left;
+    
+    }
+    .button1{
+        position:absolute;
+        top:10rem;
+        left:8rem;
+        height:2rem;
+        width:7rem;
+        background-color:#f5f5f5;
+        border:0.2rem solid #7DD9E8;
+        color:#292929;
+        padding:0.1rem;
+    }
+    .dropdown-content{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content li {
+        background: url("Images/download.png") no-repeat;
+        background-position: right center;
+        padding:0.3rem;
+        margin:0.4rem;
+        width:10rem;
+        list-style:none; 
+        text-justify: inter-word;
+        display: block;
+    } 
+    .dropdown-content li:hover {
+        background-color:#7DD9E8;
+    }
+    .dropdown:hover .dropdown-content{
+        display: block;
+        top:12rem;
+        left:6rem;
+    }
+    .dropdown:hover .button1 {
+        background-color: #7DD9E8;
+        transition:0.5s;
+    }
+    .dropdown-content2{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content2 li {
+        background: url("Images/threebar.png") no-repeat;
+        background-position: right center;
+        padding:0.3rem;
+        margin:0.4rem;
+        width: 10rem;
+        list-style:none; 
+        text-justify: inter-word;
+        display: block; 
+    } 
+    .dropdown-content2 li:hover {
+        background-color:#7DD9E8;
+    }
+    .dropdown:hover .dropdown-content2{
+        display: block;
+        left:6rem;
+        top:17.2rem;
+    }
+    .button2{
+        position:absolute;
+        top:10rem;
+        left:23rem;
+        background-color:#f5f5f5;
+        color:#292929;
+        border:0.2rem solid #7DD9E8;
+        padding:0.3rem;
+    } 
+    .dropdown-content3{
+        display: none;
+        position: absolute;
+        background-color: #f1f1f1;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+    .dropdown-content3 a{
+        text-decoration: none;
+        font-size: 14px;
+        width:10rem;
+        block-size:2rem;
+        text-align:left; 
+        font-family: 'Mulish', sans-serif;
+        color:#292929;
+        display: block;
+    }
+    .dropdown-content3 a:hover {
+        background-color:#7DD9E8;
+    }
+    .dropdown2:hover .dropdown-content3{
+        display: block;
+        left:20rem;
+        top:12rem;
+    }
+    .dropdown2:hover .button2 {
+        background-color:#7DD9E8;
+        transition:0.5s;
+    }
+    .heading{
+        padding-left:2rem;
+        padding-top:1rem;
+    }
+    .leftsidebar{
+        display: none;
+    }
+    .rightsidebar{
+        display: none;
+    }
+    .footer-container{
+        height: 3rem;
+        width:100%;
+        background:#727272;
+        clear: both;
+    }
+    
+    .footer-section1{
+    position:relative;
+    top:1rem;
+    left:1rem;
+    }
+    .footer-section2{
+        position: relative;
+        top:0.1rem;
+        left:25rem;
+    }   
+}  
+ @media (min-width: 570px){
+        .dropdown {
+            display: none;
+        }
+        .dropdown2 {
+            display: none;
+        }
+    }
