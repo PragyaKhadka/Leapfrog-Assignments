@@ -1,0 +1,11 @@
+
+*{
+    padding: 0;
+    margin:0;
+}
+
+.indicate:active{
+border-radius: 60%;
+background-color:crimson;
+} 
+
