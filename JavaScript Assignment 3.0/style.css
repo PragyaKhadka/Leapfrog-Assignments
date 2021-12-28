@@ -1,0 +1,19 @@
+
+/* *{
+    padding: 0;
+    margin:0;
+} */
+
+#visible{
+    width:450px;
+    height:450px;
+    border:1px solid black;
+    position: relative;
+    margin-left:5rem;
+    margin-top:3rem; 
+}
+.ball{
+    position: absolute;
+    background-color: brown;
+    border-radius:50px;
+}
