@@ -4,7 +4,7 @@ button.innerHTML="Start Game"
 button.style.fontSize="18px";
 button.style.fontWeight="bold";
 button.style.left="0px";
-button.style.top="65px";
+button.style.top="70px";
 button.style.position="absolute";
 
 button.onclick = function reload(){
@@ -81,7 +81,8 @@ document.addEventListener("animationiteration",function(event){
 checkOverlapping = setInterval(function(){
     player_posL= parseInt(window.getComputedStyle(player).getPropertyValue("left"));
     obstacle_posL=parseInt(window.getComputedStyle(obstacle).getPropertyValue("left"));
-    score.innerHTML=`SCORES:+${scores}`
+    score.innerHTML=`SCORES:+${scores}
+                     <p style="font-size:14px">Press key left or right to play</p>`
     player_posT= parseInt(window.getComputedStyle(player).getPropertyValue("top"));
     obstacle_posT=parseInt(window.getComputedStyle(obstacle).getPropertyValue("top"));
     if(player_posL ==  obstacle_posL && obstacle_posT>=420){
