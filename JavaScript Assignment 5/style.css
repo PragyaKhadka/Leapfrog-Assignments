@@ -1,0 +1,112 @@
+*{
+    padding:0;
+    margin:0;
+    font-family: 'Teko', sans-serif;
+}
+body{
+    display:flex;
+    display: center;
+    justify-content:center;
+    background-color:skyblue;
+}
+
+#view{
+    box-sizing: border-box;
+    width:600px;
+    height:600px;
+    border:1px solid black;
+    overflow:hidden;
+    position: relative;
+    background-image: url("Images/screenview.jpg");
+    background-repeat: repeat;
+}
+.block{ 
+    width:80px;
+    height:600px;
+    background-image:url("Images/blockbg.jpg") ;
+    /* position:absolute;
+    left:200px; */
+}
+#block1{
+    animation:blog linear infinite;
+    animation-duration:3000ms ;
+    position:absolute;
+    left:200px;
+}
+@keyframes blog{
+    from{
+        left:500px;
+    }
+    to{
+        left:-5px;
+    }
+}
+ /* #block2{
+     animation:block 4s linear infinite;  
+    position:absolute;
+    left:400px; 
+ }
+
+@keyframes block{
+    from {left:500px;       
+     }
+     to {       
+       left:-5px;
+     }
+ }    */
+.hole{
+    width:80px;
+    height:150px;
+    background-image:url("Images/holebg.jpg") ;
+    position:absolute;
+    
+}
+#hole1{
+    left:200px;
+    top:230px;
+    animation:move linear infinite;
+    animation-duration:3000ms;
+}
+@keyframes move{
+    from {left:500px;       
+     }
+     to {       
+       left:-5px;
+     }
+ }
+ /* #hole2{
+    left:400px;
+    top:230px;
+     animation:move1 4s linear infinite; 
+}
+@keyframes move1{
+    from {left:500px;       
+     }
+     to {       
+       left:-5px;
+     }
+ }  */
+
+
+#bird{
+    width:40px;
+    height:28px;
+    background-image: url("Images/bird.png");
+    position:absolute;
+    left:100px;
+    top: 0px;
+    z-index:1;
+}
+
+#btn{
+    width:80px;
+    height:30px;
+    background:skyblue;
+    border:1px solid green;
+    cursor:pointer;
+    position: absolute;
+    top:330px;
+    left:600px;
+    display:none;
+
+}
