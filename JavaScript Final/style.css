@@ -6,11 +6,49 @@
 html,body{
     width:100%;
     height:100%;
-    background-color:hotpink;
+    background-image: linear-gradient(to right,#97E390,#83e07a,#75df6b); 
 }
-#canvas{
-    width:100%;
-    height:100%;
+#canvas_body{
+    display:none;
+}
+#startgame{
+    /* width: 1280px; */
+    height: 100%;
+    /* outline: 5px solid #6B8E23;
+    outline-offset: -5px; */
+    background-image: url(Images/Group\ 7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: block;
     position: relative;
 }
-
+#start-btn{
+  position:absolute;
+  font-family:'Risque';
+  color:#AB6B51;
+  font-weight: bold;
+  font-size: 28px;
+  border: 3px solid #6B8E23;
+  background-color:	black;
+  border-radius:15px;
+  left:820px;
+  top: 250px;
+  padding: 10px;
+}
+#start-btn:hover{
+    /* background-color: #32CD32; */
+    background-color:#97E390
+}
+#game_status{
+    position: absolute;
+    left:60px;
+    top:20px;
+    box-sizing: border-box ;
+    border:3px solid #654321;
+    /* background-color:#AB6B51; */
+    background-color:#Fdfff5;
+    border-radius: 15px;
+    height:85px;
+    width:480px;
+}
