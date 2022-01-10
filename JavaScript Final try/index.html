@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta charset="UTF-8"/>
+        <title> Bhag Chal </title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Risque&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">   
+    </head>
+    <body>
+    <script src="bhagchal.js" defer></script>
+    <script src="utility.js" defer></script> 
+    <div id= "startgame">
+        <button id="start-btn" onclick=startgame()>Start Game</button>
+    </div>
+    <div id= "canvas_body">
+    <canvas id="canvas" onmousedown= clicked() ></canvas>
+    <nav id="game_status">
+            <h1 style= "font-family:Risque; color:#6B8E23; position:absolute;left:165px">Game Status</h1><br><br><br></nav>
+            <img style="position: absolute; left:900px;top:2px" src="Images/tree-removebg-preview.png">
+            <img style="position: absolute; left:700px;top:58px" src="Images/tree-removebg-preview.png">
+            <img style="position: absolute; left:800px;top:120px" src="Images/tree-removebg-preview.png">
+            <img style="position: absolute; left:600px;top:120px" src="Images/tree-removebg-preview.png">
+            <img style="position: absolute; left:950px;top:170px" src="Images/tree-removebg-preview.png">
+    </div>
+    </body> 
+</html> 
