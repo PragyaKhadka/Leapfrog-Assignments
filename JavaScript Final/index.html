@@ -14,9 +14,15 @@
     <script src="utility.js" defer></script> 
     <div id= "startgame">
         <button id="start-btn" onclick=startgame()>Start Game</button>
+        
+    </div>
+    <div id="choose_gametype">
+        <p style="color:#AB6B51;font-size:28px;font-family:Risque;position:absolute;left:50px;top:100px;">SELECT THE TYPE OF GAME YOU WANNA PLAY!</p>
+        <button id="pvp" onclick="game(1);choose_game()" >Player vs. Player</button>
+        <button id="ctvp" onclick="game(2);choose_game()" > Computer vs. Player</button>
     </div>
     <div id= "canvas_body">
-    <canvas id="canvas" onmousedown= clicked() ></canvas>
+    <canvas id="canvas" ></canvas>
     <nav id="game_status">
             <h1 style= "font-family:Risque; color:#6B8E23; position:absolute;left:165px">Game Status</h1><br><br><br></nav>
             <img style="position: absolute; left:900px;top:2px" src="Images/tree-removebg-preview.png">
@@ -24,6 +30,10 @@
             <img style="position: absolute; left:800px;top:120px" src="Images/tree-removebg-preview.png">
             <img style="position: absolute; left:600px;top:120px" src="Images/tree-removebg-preview.png">
             <img style="position: absolute; left:950px;top:170px" src="Images/tree-removebg-preview.png">
+    </div>
+    <div id="notify">
+        <p style="color:#AB6B51;font-size:38px; font-family:Risque; position:absolute;top:40px;left:350px;"> THE GAME IS OVER!!</p>
+        <button id="newgame_btn" onclick="reload()">NEW GAME</button>
     </div>
     </body> 
 </html> 
