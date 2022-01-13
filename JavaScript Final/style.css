@@ -1,129 +1,147 @@
-*{
-    padding:0;
-    margin:0;
-    font-family: 'Teko', sans-serif;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Teko", sans-serif;
 }
-html,body{
-    width:100%;
-    height:100%;
-    background-image: linear-gradient(to right,#97E390,#83e07a,#75df6b); 
-    overflow-x: hidden;
+html,
+body {
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to right, #97e390, #83e07a, #75df6b);
+  overflow-x: hidden;
 }
-#canvas_body{
-    display:none;
+#canvas_body {
+  display: none;
 }
-#startgame{
-    height: 100%;
-    background-image: url(Images/Group\ 7.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: block;
-    position: relative;
+#startgame {
+  height: 100%;
+  background-image: url(Images/Group\ 7.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  position: relative;
 }
-#start-btn{
-  position:absolute;
-  font-family:'Risque';
-  color:#AB6B51;
+#start-btn {
+  position: absolute;
+  font-family: "Risque";
+  color: #ab6b51;
   font-weight: bold;
   font-size: 28px;
-  border: 3px solid #6B8E23;
-  background-color:	black;
-  border-radius:15px;
-  left:820px;
+  border: 3px solid #6b8e23;
+  background-color: black;
+  border-radius: 15px;
+  left: 820px;
   top: 250px;
   padding: 10px;
 }
-#start-btn:hover{
-    background-color:#97E390
+#start-btn:hover {
+  background-color: #97e390;
 }
-#game_status{
-    position: absolute;
-    left:60px;
-    top:20px;
-    box-sizing: border-box ;
-    border:3px solid #654321;
-    /* background-color:#AB6B51; */
-    background-color:#Fdfff5;
-    border-radius: 15px;
-    height:85px;
-    width:480px;
+#game_status {
+  position: absolute;
+  left: 60px;
+  top: 20px;
+  box-sizing: border-box;
+  border: 3px solid #654321;
+  /* background-color:#AB6B51; */
+  background-color: #fdfff5;
+  border-radius: 15px;
+  height: 85px;
+  width: 480px;
 }
-#notify{
-    position:absolute;
-    left:120px;
-    top:120px;
-    height:400px;
-    width: 1050px;
-    border-radius:30px;
-    border: 3px solid #6B8E23;
-    background: rgba(0,0,0,0.8);
-    backdrop-filter:blur(10px);
-    display:none;
+#notify {
+  position: absolute;
+  left: 120px;
+  top: 120px;
+  height: 400px;
+  width: 1050px;
+  border-radius: 30px;
+  border: 3px solid #6b8e23;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  display: none;
 }
-#newgame_btn{
-    position:absolute;
-    font-family:'Risque';
-    color:#AB6B51;
-    font-weight: bold;
-    font-size: 28px;
-    border: 3px solid#6B8E23; 
-    border-radius:15px;
-    height:55px;
-    width:185px;
-    left:440px;
-    top: 300px;
-    padding: 10px;
-    background-color: black;
-}
-#newgame_btn:hover{
-    background-color:#97E390
-}
-#pvp{
-  position:absolute;
-  font-family:'Risque';
-  color:#AB6B51;
+#newgame_btn {
+  position: absolute;
+  font-family: "Risque";
+  color: #ab6b51;
   font-weight: bold;
   font-size: 28px;
-  border: 3px solid #6B8E23;
-  background-color:	black;
-  border-radius:15px;
-  left:90px;
-  top: 200px;
+  border: 3px solid#6B8E23;
+  border-radius: 15px;
+  height: 55px;
+  width: 185px;
+  left: 440px;
+  top: 300px;
+  padding: 10px;
+  background-color: black;
+}
+#newgame_btn:hover {
+  background-color: #97e390;
+}
+#pvp {
+  position: absolute;
+  font-family: "Risque";
+  color: #ab6b51;
+  font-weight: bold;
+  font-size: 28px;
+  border: 3px solid #6b8e23;
+  background-color: black;
+  border-radius: 15px;
+  left: 220px;
+  top: 160px;
   padding: 10px;
 }
 
-#pvp:hover,:active{
-    background-color:#97E390
+#pvp:hover,
+:active {
+  background-color: #97e390;
 }
 
-#ctvp{
-    position:absolute;
-    font-family:'Risque';
-    color:#AB6B51;
-    font-weight: bold;
-    font-size: 28px;
-    border: 3px solid #6B8E23;
-    background-color:	black;
-    border-radius:15px;
-    left:350px;
-    top: 200px;
-    padding: 10px;
+#ctvp {
+  position: absolute;
+  font-family: "Risque";
+  color: #ab6b51;
+  font-weight: bold;
+  font-size: 28px;
+  border: 3px solid #6b8e23;
+  background-color: black;
+  border-radius: 15px;
+  left: 150px;
+  top: 240px;
+  padding: 10px;
 }
 
-#ctvp:hover{
-    background-color:#97E390
+#ctvp:hover {
+  background-color: #97e390;
+}
+#cgvp {
+  position: absolute;
+  font-family: "Risque";
+  color: #ab6b51;
+  font-weight: bold;
+  font-size: 28px;
+  border: 3px solid #6b8e23;
+  background-color: black;
+  border-radius: 15px;
+  left: 150px;
+  top: 320px;
+  padding: 10px;
 }
 
-#choose_gametype{
-    position:absolute;
-    left:300px;
-    top:120px;
-    height:400px;
-    width: 700px;
-    border-radius:30px;
-    border: 3px solid #6B8E23;
-    background: rgba(0,0,0,0.8);
-    backdrop-filter:blur(10px);
-    display: none;
+#cgvp:hover {
+  background-color: #97e390;
+}
+#choose_gametype {
+  position: absolute;
+  left: 300px;
+  top: 120px;
+  height: 400px;
+  width: 700px;
+  border-radius: 30px;
+  border: 3px solid #6b8e23;
+  background: rgba(0, 0, 0, 0.8);
+  backdrop-filter: blur(10px);
+  display: none;
 }
